@@ -1,0 +1,318 @@
+.main-container, .container, .main-block-container, .slider-container, .footer-container, .main-header-menu
+{
+    width: 1000px;
+    margin: 0 auto;
+    display: block;
+}
+.main-header
+{
+    background-color: #eee;    
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.main-block-container
+
+{ 
+    padding-top: 25px;
+    padding-bottom: 10px;
+    display: table;
+    
+}
+ .main-logo
+{
+    float: left;
+    width: 100px;
+    padding-top: 10px;
+}
+
+.basket
+{
+    position: relative;
+    margin-left: 25px;
+    padding-left: 25px;
+}
+
+.main-header-menu a
+{ 
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    margin-right: 45px;
+}
+
+.main-header-menu {
+   
+    margin: 50;
+    max-width: 650px;
+    margin-top: 34px;
+    float: right;
+    display: block;
+    
+}
+
+
+.inform-title
+{
+  font-size: 36px;
+  line-height: 36px;  
+}
+
+
+
+.slider-item {
+    float: left;
+    min-height: 310px;
+    min-width: 880px;
+}
+
+.slider label {
+    position: absolute;
+    bottom: 95px;
+    z-index: 10;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.slider-left-column
+{   width: 380px;
+    float: left;
+    padding-top: 30px;
+}
+
+.slider-right-column {
+    float: right;
+    width: 340px;
+}
+
+.slider-info 
+{
+    margin-bottom: 29px;
+    color: #283136;
+}
+
+
+.slider-btn
+{  
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    color: #fff;
+    background-color: #fb565a;
+    text-decoration: none;
+    text-transform: uppercase; 
+    font-family: Roboto,Arial, sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+ 
+}
+
+.item-title 
+{
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.item-info
+{
+    font-size: 16px;
+    margin-bottom: 29px;
+    color: #283136;
+}
+
+.btn-order
+
+{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    color: #fff;
+    background-color: #fb565a;
+    text-decoration: none;
+    text-transform: uppercase; 
+    font-family: Roboto,Arial, sans-serif;
+    font-size: 16px;
+    border-radius: 5px; 
+}
+
+.detail-title
+{
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.detail-info
+{
+    font-size: 18px;
+    color: #283136;         
+}
+
+.detail-list-title
+{
+    margin-bottom: 22px;
+    color: #283136;
+    text-transform: uppercase;
+}
+
+.map {
+     width: 100%; 
+     min-height: 416px; 
+     margin: 0 auto; 
+     background: url(./img/map1.png) 50% 50% no-repeat;
+}
+
+
+
+.map-title
+{
+    margin-bottom: 12px;
+    font-size: 15px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.map-info
+{
+    line-height: 20px;
+}
+
+.btn-map
+{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    color: #fff;
+    background-color: #fb565a;
+    text-decoration: none;
+    text-transform: uppercase; 
+    font-family: Roboto,Arial, sans-serif;
+    font-size: 16px;
+    border-radius: 5px; 
+}
+
+.product
+{
+    float: left;
+    width: 240px;
+    margin-right: 80px;
+   
+}
+
+figure
+{
+     margin: auto;
+}
+
+.catalog-product
+{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: table;
+}
+
+
+.details
+{
+    display: table;
+}
+
+.detail-left-column
+{
+    float: left;
+    width: 600px;
+    padding-top: 10px;
+   
+}
+
+.detail-right-column
+{
+    float: right;
+    width: 400px;
+    padding-top: 10px;
+   
+}
+
+.detail-image
+{
+    padding-top: 15px;
+    
+}
+
+
+.brands
+{
+    padding-top: 50px;
+    display:  block;
+    margin-bottom: 80px;
+}
+
+.brand-item
+{   
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.map-block
+{
+    position: absolute;
+    top: 1570px;
+    width: 240px;
+    background-color: #fff;
+    padding: 22px 20px 25px;
+}
+
+.bottom-footer {
+    padding-top: 75px;
+    padding-bottom: 73px;
+}
+
+.footer-left-column {
+    float: left;
+    width: 300px;
+    padding-top: 5px;
+}
+
+.footer-right-column {
+    float: right;
+    max-width: 550px;
+    margin-right: 20px;
+}
+
+.footer-btn {
+    position: relative;
+    float: left;
+    margin-right: 30px;
+    width: 60px;
+    height: 60px;
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    background: #e1e1e1;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer-title, .slider-title {
+    font-size: 36px;
+    line-height: 36px;
+}
+
+
+
+
+
+
+
+
